@@ -13,7 +13,7 @@ def distance(lat1, lon1, lat2, lon2):
     Returns:
         The distance (meters) between the two location.
     """
-    pass
+
     # Approximation of Earth's radius in meters
     earth_radius = 6378100
 
