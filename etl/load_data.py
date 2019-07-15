@@ -1,9 +1,15 @@
+import mysql.connector
+
+cnx = mysql.connector.connect(user='root', password='example',
+                              host='127.0.0.1',
+                              database='geolocation')
 
 def load():
     define_database_schema()
     data_file = genernate_data()
     load_data(data_file)
 
+    cnx.close()
 
 def define_database_schema():
     """create database table
