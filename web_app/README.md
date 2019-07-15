@@ -8,7 +8,7 @@ pip -V
 ##Set up Flask environment and dev testing
 ```
 cd web_app
-pip install -m requirements.txt
+pip install -r requirements.txt
 python app.py
 ```
 access http://localhost:5000 with Chrome browser
